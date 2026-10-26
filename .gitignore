@@ -1,0 +1,31 @@
+server/.env
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+server/.env
+client/.env
+client/.env.*
+
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build files
+dist/
+build/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
